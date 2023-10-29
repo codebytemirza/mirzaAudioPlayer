@@ -1,0 +1,80 @@
+/* public/stylesheets/style.css */
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Choose your preferred font */
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Navbar background color */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Navbar brand font size */
+    color: #fff; /* Navbar brand color */
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Header styles */
+h1 {
+    font-size: 36px; /* Header font size */
+    margin-bottom: 30px; /* Header margin */
+}
+
+/* Form styles */
+.form-control {
+    border: 2px solid #555; /* Form control border */
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #F28482; /* Primary button background color */
+    border: none;
+    color: #fff; /* Primary button text color */
+    font-size: 18px; /* Primary button font size */
+}
+
+.btn-primary:hover {
+    background-color: #FF6B6B; /* Hover color for primary button */
+}
+
+.btn-secondary {
+    background-color: #555; /* Secondary button background color */
+    border: none;
+    color: #fff; /* Secondary button text color */
+    font-size: 18px; /* Secondary button font size */
+}
+
+.btn-secondary:hover {
+    background-color: #333; /* Hover color for secondary button */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Copyright styles */
+.footer p:first-child {
+    font-size: 14px; /* Copyright text font size */
+}
+
+/* About Me styles */
+.footer p:last-child {
+    font-size: 16px; /* About Me text font size */
+    margin-top: 10px;
+}

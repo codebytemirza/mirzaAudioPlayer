@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <title>desiPlayer Mirza</title>
+</head>
+<body class="dark-theme">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Desi Player Mirza</a>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>YouTube Music Player</h1>
+        <audio controls autoplay>
+            <source src="<%= audioURL %>" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="text-center mt-3">
+            <button class="btn btn-secondary" onclick="playAnotherMusic()">Play Another Music</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2023 desiPlayer Mirza</p>
+            <p>About Me: I am a CS student with a passion for web development and music.</p>
+        </div>
+    </footer>
+
+    <script>
+        function playAnotherMusic() {
+            window.location.href = '/';
+        }
+    </script>
+</body>
+</html>
